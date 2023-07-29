@@ -1,0 +1,61 @@
+*
+{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: 'Comic sans ms';
+}
+body
+{
+   height: 100vh;
+   display: grid;
+   place-items: center;
+   background-color: lightslategray;
+}
+.container h1
+{
+   text-align: center;
+   font-size: 3.5rem;
+   color: #fff;
+   text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+   margin-top: 0.5em;
+   margin-bottom: 0.5em;
+}
+.container h1 i
+{
+   font-size: 3.8rem;
+   color: blueviolet;
+   -webkit-text-stroke: 1px #000;
+}
+.content
+{
+   text-align: center;
+   width: 100vw;
+}
+.content .btn
+{
+   margin: 1em;
+   font-size: 2rem;
+   padding: 1em 0.7em;
+   background: url(./images/tom.png);
+   background-color: #fff;
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+   border: none;
+   cursor: pointer;
+   font-weight: 600;
+   min-width: 250px;
+   min-height: 150px;
+   border-radius: 0.4em;
+   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4);
+   text-transform: capitalize;
+}
+.content .btn:hover
+{
+   color: orangered;
+}
+.content .btn:active
+{
+   background-size: 110%;
+}
